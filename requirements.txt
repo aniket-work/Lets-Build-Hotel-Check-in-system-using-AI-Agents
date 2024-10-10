@@ -1,0 +1,8 @@
+streamlit
+langchain
+langgraph
+openai
+langchain-groq
+fastapi
+uvicorn
+python-dotenv

@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "name": "John Doe",
+    "pin": "1234",
+    "credit_card": "1234-5678-9012-3456"
+  },
+  {
+    "id": 2,
+    "name": "Jane Smith",
+    "pin": "5678",
+    "credit_card": "9876-5432-1098-7654"
+  },
+  {
+    "id": 3,
+    "name": "Bob Johnson",
+    "pin": "9012",
+    "credit_card": "1111-2222-3333-4444"
+  }
+]

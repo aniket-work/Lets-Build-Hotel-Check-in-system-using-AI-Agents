@@ -1,0 +1,32 @@
+[
+  {
+    "number": "101",
+    "status": "available",
+    "type": "single",
+    "price": 100
+  },
+  {
+    "number": "102",
+    "status": "occupied",
+    "type": "single",
+    "price": 100
+  },
+  {
+    "number": "201",
+    "status": "available",
+    "type": "double",
+    "price": 150
+  },
+  {
+    "number": "202",
+    "status": "available",
+    "type": "double",
+    "price": 150
+  },
+  {
+    "number": "301",
+    "status": "available",
+    "type": "suite",
+    "price": 250
+  }
+]
