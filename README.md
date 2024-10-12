@@ -1,9 +1,5 @@
 # Let's Build Hotel Check in system using AI Agents
 
-
-# Let's Build Real Time Fare Optimization for Airlines Using AI Agents 
-
-
 ## Introduction
 
 Imagine a product development department where AI employees work tirelessly, analyzing market trends, crunching numbers, and brainstorming innovative ideas 24/7. This isn’t science fiction — it’s the cutting-edge approach of our fictional company’s AI-powered strategy team. In this article, we’re pulling back the curtain on how this company is leveraging AI to revolutionize their product development process. Get ready to witness the future of business strategy in action!
@@ -35,7 +31,7 @@ By exploring this process, you’ll gain insights into how businesses can levera
 ![Design Diagram](design_docs/design.png)
 
 
-# Tutorial: Let's Build Real Time Fare Optimization for Airlines Using AI Agents  
+# Tutorial: Let's Build Hotel Check in system using AI Agents 
 
 ## Prerequisites
 - Python installed on your system.
@@ -64,7 +60,7 @@ By exploring this process, you’ll gain insights into how businesses can levera
 
 **Install Project Dependencies:**
 
-Follow these steps to set up and run the 'Let's Build Real Time Fare Optimization for Airlines Using AI Agents ' project:
+Follow these steps to set up and run the 'Let's Build Hotel Check in system using AI Agents' project:
 
 1. Navigate to your project directory:
    ```
@@ -79,7 +75,7 @@ Follow these steps to set up and run the 'Let's Build Real Time Fare Optimizatio
    This command installs all the necessary Python packages listed in the requirements.txt file.
 
 
-## Run - Hands-On Guide: Let's Build Real Time Fare Optimization for Airlines Using AI Agents 
+## Run - Hands-On Guide: Let's Build Hotel Check in system using AI Agents
 
    ```bash 
      

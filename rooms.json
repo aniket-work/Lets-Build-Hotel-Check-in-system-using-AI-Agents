@@ -28,8 +28,9 @@
   },
   {
     "number": "301",
-    "status": "available",
+    "status": "occupied",
     "type": "suite",
-    "price": 250
+    "price": 250,
+    "user_id": "5678"
   }
 ]
