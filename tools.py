@@ -20,11 +20,10 @@ def validate_pin(pin: str):
             return {"valid": True, "user_id": user['id']}
     return {"valid": False}
 
-@app.get("/check_available_rooms")
 def check_available_rooms():
     rooms = load_json('rooms.json')
     available_rooms = [room for room in rooms if room['status'] == 'available']
-    return {"available_rooms": available_rooms}
+    return available_rooms  # This will be an empty list if no rooms are available
 
 @app.post("/assign_room")
 def assign_room(user_id: int, room_number: str):
@@ -37,10 +36,9 @@ def assign_room(user_id: int, room_number: str):
             return {"success": True, "room_number": room_number}
     raise HTTPException(status_code=400, detail="Room not available")
 
-@app.post("/create_access_key")
-def create_access_key(room_number: str):
+def create_access_key(room_number: str) -> str:
     access_key = ''.join(random.choices('ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789', k=6))
-    return {"access_key": access_key}
+    return access_key
 
 @app.post("/charge_credit_card")
 def charge_credit_card(user_id: int, amount: float):
