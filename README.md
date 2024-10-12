@@ -1,31 +1,41 @@
 # Let's Build Hotel Check in system using AI Agents
 
+TL;DR
+We’re building an AI-powered hotel check-in system. It uses a chat interface to guide guests through check-in, handling PIN verification, room assignment, and payment. This system showcases how AI can streamline hospitality operations, potentially reducing wait times and improving guest experiences.
+
 ## Introduction
 
-Imagine a product development department where AI employees work tirelessly, analyzing market trends, crunching numbers, and brainstorming innovative ideas 24/7. This isn’t science fiction — it’s the cutting-edge approach of our fictional company’s AI-powered strategy team. In this article, we’re pulling back the curtain on how this company is leveraging AI to revolutionize their product development process. Get ready to witness the future of business strategy in action!
+Picture this: You’ve just arrived at a hotel after a long journey. You’re tired and just want to get to your room. Wouldn’t it be great if you could check in quickly and easily, without waiting in line? That’s exactly what we’re building in this article!
 
-Full Article : [https://medium.com/@learn-simplified/hands-on-multi-agents-collaborate-to-build-winning-product-development-strategies-4a15f5ab769f
+We’re creating an AI-powered hotel check-in system. Our system assumes you’ve already made a reservation, and now you’re ready to check in. It’s designed to make the check-in process smooth and effortless, using a friendly chat interface powered by artificial intelligence.
 
-## TL;DR:
+Full Article : [https://medium.com/ai-advances/lets-build-hotel-check-in-system-using-ai-agents-b195e7da96a1
 
-We’ve created a groundbreaking multi-AI system for product strategy development. Three AI agents, acting as employees with distinct expertise, collaborate to cover market analysis, technical considerations, and financial planning. An AI supervisor then synthesizes their insights into a cohesive strategy. This setup demonstrates AI’s potential to accelerate innovation, provide diverse perspectives, and make data-driven decisions in product development. It’s a glimpse into how businesses can harness AI to stay competitive in rapidly evolving markets. The future? AI and human collaboration taking product innovation to unprecedented heights.
 
 
 ## What's This Project About
 
-This article provides an insider’s view of an AI-powered product strategy development process. We’ve designed a system where multiple AI agents, each with unique capabilities, work in concert to formulate comprehensive product strategies. Picture a virtual strategy meeting where AI experts analyze, debate, and plan. Our setup includes three AI employees, each powered by a different language model, and an AI supervisor to consolidate their efforts. You’ll witness how these AIs tackle everything from market trends and technical feasibility to financial projections, all aimed at crafting winning product strategies across various industries.
+In this article, we’re diving into the world of AI-powered hospitality. We’ll walk you through building a hotel check-in system that uses AI agents to interact with guests. Here’s what we’re covering:
+
+Creating a user-friendly chat interface using Streamlit
+Developing an AI agent that handles the check-in process step-by-step
+Simulating hotel backend operations like room assignment and payment processing
+We’ll look at three main components:
+
+main.py : The chat interface that guests interact with
+agents.py : The AI brain that manages the check-in process
+tools.py : The simulated hotel backend operations
+By the end of this article, you’ll understand how these pieces fit together to create a seamless, AI-driven check-in experience.
 
 ## Why Work on It?
 
-In today’s hyper-competitive business landscape, AI is more than a buzzword — it’s a strategic imperative. Through our fictional company’s journey, this article demonstrates how AI can transform product strategy development:
+AI is revolutionizing the way businesses operate, and the hospitality industry is no exception. This article shows you how to implement AI in a practical, guest-facing application. Here’s why it matters:
 
-    - Accelerated innovation: AI rapidly processes vast amounts of market data and generates novel ideas.
-    - Multifaceted insights: Different AI models provide varied perspectives, mimicking a diverse team of human experts.
-    - Data-driven strategy: AI analyzes extensive datasets to support every strategic recommendation.
-    - Continuous productivity: These AI agents work round-the-clock, ensuring non-stop progress in strategy development.
-
-By exploring this process, you’ll gain insights into how businesses can leverage AI to stay ahead in any competitive market. It’s not just about the technology — it’s about reimagining the entire approach to product strategy and development in the AI era.
-
+Efficiency: AI-powered systems can handle multiple check-ins simultaneously, reducing wait times and improving guest satisfaction.
+Consistency: AI agents provide a consistent check-in experience, ensuring every guest receives the same high-quality service.
+Availability: Unlike human staff, AI systems can operate 24/7, accommodating guests who arrive at any hour.
+Adaptability: AI can easily handle multiple languages and adapt to guest preferences, enhancing the personalized experience.
+While our example uses a fictional hotel, the concepts we cover can be applied to real-world hospitality businesses. This article gives you a hands-on look at how AI can transform traditional processes, providing valuable insights for anyone interested in the intersection of AI and customer service.
 
 ## Architecture
 ![Design Diagram](design_docs/design.png)
@@ -86,4 +96,4 @@ Follow these steps to set up and run the 'Let's Build Hotel Check in system usin
 
 ## Conclusion and Next Steps
 
-Congratulations! You've just built Let's Build Real Time Fare Optimization for Airlines Using AI Agents.
+Congratulations! You've just built Let's Build Hotel Check in system using AI Agents
